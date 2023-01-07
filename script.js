@@ -158,29 +158,21 @@ window.onload = ()=>{
     
         }
         
-     up.addEventListener('click',()=>{
-        keys.ArrowUp = true;
+     document.addEventListener('keydown',(e)=>{
+        if(e.keyCode==38){ keys.ArrowUp = true;}
+       
     })
-    up.addEventListener('click',()=>{
-        keys.ArrowUp = false;
+   
+    document.addEventListener('keydown',(e)=>{
+        if(e.keyCode==40){keys.ArrowDown = true;}
     })
-    down.addEventListener('click',()=>{
-        keys.ArrowDown = true;
+    
+    document.addEventListener('keydown',(e)=>{
+       if(e.keyCode==37){ keys.ArrowLeft = true;}
     })
-    down.addEventListener('click',()=>{
-        keys.ArrowDown = false;
-    })
-    left.addEventListener('click',()=>{
-        keys.ArrowLeft = true;
-    })
-    left.addEventListener('click',()=>{
-        keys.ArrowLeft = false;
-    })
-    right.addEventListener('click',()=>{
-        keys.ArrowRight = true;
-    })
-    right.addEventListener('click',()=>{
-        keys.ArrowRight = false;
+   
+    document.addEventListener('keydown',(e)=>{
+        if(keyCode==39){keys.ArrowRight = true;}
     })
     
     

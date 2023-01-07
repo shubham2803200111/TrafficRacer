@@ -158,28 +158,28 @@ window.onload = ()=>{
     
         }
         
-     up.addEventListener('touchstart',()=>{
+     up.addEventListener('click',()=>{
         keys.ArrowUp = true;
     })
-    up.addEventListener('touchend',()=>{
+    up.addEventListener('click',()=>{
         keys.ArrowUp = false;
     })
-    down.addEventListener('touchstart',()=>{
+    down.addEventListener('click',()=>{
         keys.ArrowDown = true;
     })
-    down.addEventListener('touchend',()=>{
+    down.addEventListener('click',()=>{
         keys.ArrowDown = false;
     })
-    left.addEventListener('touchstart',()=>{
+    left.addEventListener('click',()=>{
         keys.ArrowLeft = true;
     })
-    left.addEventListener('touchend',()=>{
+    left.addEventListener('click',()=>{
         keys.ArrowLeft = false;
     })
-    right.addEventListener('touchstart',()=>{
+    right.addEventListener('click',()=>{
         keys.ArrowRight = true;
     })
-    right.addEventListener('touchend',()=>{
+    right.addEventListener('click',()=>{
         keys.ArrowRight = false;
     })
     
